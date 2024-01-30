@@ -13,5 +13,6 @@ nc: 3
 task: ObjectDetection
 train: C:/Users/B20447/Documents/GitHub/Ultralytics-WebUI/datasets/HardHat/train/images
 user: admin
-vaild: C:/Users/B20447/Documents/GitHub/Ultralytics-WebUI/datasets/HardHat/vaild/images
 test: C:/Users/B20447/Documents/GitHub/Ultralytics-WebUI/datasets/HardHat/test/images
+val: C:/Users/B20447/Documents/GitHub/Ultralytics-WebUI/datasets/HardHat/valid/images
+

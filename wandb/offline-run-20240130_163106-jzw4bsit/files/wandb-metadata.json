@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2024-01-30T08:31:07.181614",
+    "startedAt": "2024-01-30T08:31:06.401268",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/R300-AI/Ultralytics-WebUI.git",
+        "commit": "0707c6dd8e9835af67609ae3d528cd827de3e6c2"
+    },
+    "email": "markov.chen1996@itri.org.tw",
+    "root": "C:/Users/B20447/Documents/GitHub/Ultralytics-WebUI",
+    "host": "51-0B20447-01",
+    "username": "B20447",
+    "executable": "C:\\ProgramData\\Anaconda3\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1992.0,
+        "min": 0.0,
+        "max": 1992.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1992.0,
+            "min": 0.0,
+            "max": 1992.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.6917152404785,
+            "used": 362.99181365966797
+        }
+    },
+    "gpu": "NVIDIA GeForce MX330",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX330",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 31.84308624267578
+    }
+}

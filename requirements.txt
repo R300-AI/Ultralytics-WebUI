@@ -4,3 +4,4 @@ MarkupSafe==1.1
 typing-extensions==4.5.0
 pydantic-core
 gradio
+ultralytics
