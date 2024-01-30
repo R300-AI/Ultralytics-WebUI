@@ -19,7 +19,10 @@ def detect_submit(Model, Epochs, Input_Size, Exports):
         images = [(results_dir + '/' + filename, filename.split('.')[0]) for filename in [f for f in os.listdir(results_dir)] if '.jpg' in filename or  '.png' in filename]
         return images, Model + " (Detect) training successed."
     else:
-        return None, Model + " (Detect) are not support given Dataset."
+        if Task == None:
+            return "Dataset are not loaded. please press 'Load Dataset' button."
+        else:
+            return None, Model + " (Detect) are not support given Dataset."
 
 global Selected_Dataset, Task
 Selected_Dataset, Task = None, None
